@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="262.0" prefWidth="453.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+      <Canvas fx:id="can" height="207.0" width="437.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <FlowPane prefHeight="54.0" prefWidth="262.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#addPict" text="Счастливый" />
+            <Button mnemonicParsing="false" onAction="#addPictTwo" text="Нейтральный" />
+            <Button mnemonicParsing="false" onAction="#addPictThree" text="Злой" />
+            <Button mnemonicParsing="false" onAction="#addPictFour" text="Расстроенный" />
+            <Button mnemonicParsing="false" onAction="#clearPic" text="Стереть" />
+         </children>
+      </FlowPane>
+   </bottom>
+</BorderPane>
